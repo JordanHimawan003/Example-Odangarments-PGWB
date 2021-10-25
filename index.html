@@ -1,0 +1,485 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+    <!-- Google Font -->
+     <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Montserrat:200,400,600&display=swap"
+     rel="stylesheet">
+
+    <!-- My CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="shortcut icon" href="./img/logo_small.png">
+    <title>Odangarments - Fashion Commerce</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href=>
+          <img src="./img/Logo.png" alt> 
+        </a>
+        <!-- Burger Menu -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Nav Menu -->
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <ul class="navbar-nav text-uppercase mx-auto">
+            <li class="nav-item active">
+              <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="./admin/dashboard.html" target="" class="nav-link">Dashboard</a>
+            </li>   
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Sections
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#brands">Brands</a></li>
+                <li><a class="dropdown-item" href="#features">Top Picks</a></li>
+                <li><a class="dropdown-item" href="#category">Categories</a></li>
+                <li><a class="dropdown-item" href="#why">Browse</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#footer">Footer</a></li>
+              </ul>
+            </li>   
+          </ul>
+          <a href="#" class="nav-link text-white">
+            <i class="bi-bag-fill"></i> Bag (<span>12</span>)
+          </a>
+        </div>
+      </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
+    <!-- Carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+       <div class="container">
+          <!-- Carousel Item 1 -->
+          <div class="carousel-item active">
+            <div class="row pt-5 justify-content-center">
+              <div class="col-9 col-sm-4 col-md-6 col-lg-5 my-4">
+                <h1 class="mb-4">Best Sports Collection</h1>
+                <p class="mb-4">Find our best picked sports clothing pieces that suit your body for the sake of better healthy life</p>
+                <a href="index.html" class="btn btn-warning">Explore Now</a>
+              </div>
+              <div class="col-3 col-sm-6 col-md-4 col-lg-4 d-none d-sm-block offset-1">
+                <img src="./img/carousel/Carousel-1.png">
+              </div>
+            </div>
+          </div>
+          <!-- Carousel Item 1 -->
+          <!-- Carousel Item 2 -->
+          <div class="carousel-item">
+            <div class="row pt-5 justify-content-center">
+              <div class="col-9 col-sm-4 col-md-6 col-lg-5 my-4">
+                <h1 class="mb-4">Glamour Luxurious Life</h1>
+                <p class="mb-4">Show them broke folks your expensive pieces that represent your huge bank account.</p>
+                <a href="index.html" class="btn btn-warning">Explore Now</a>
+              </div>
+              <div class="col-3 col-sm-6 col-md-4 col-lg-4 d-none d-sm-block offset-1">
+                <img src="./img/carousel/Carousel-2.png">
+              </div>
+            </div>
+          </div>
+          <!-- Carousel Item 2 -->
+          <!-- Carousel Item 3 -->
+          <div class="carousel-item">
+            <div class="row pt-5 justify-content-center">
+              <div class="col-9 col-sm-4 col-md-6 col-lg-5 my-4">
+                <h1 class="mb-4">Limited Collaboration</h1>
+                <p class="mb-4">Explore our limited Jujutsu Kaisen pieces. Licensed and signed by Gege Akutami.</p>
+                <a href="index.html" class="btn btn-warning">Explore Now</a>
+              </div>
+              <div class="col-3 col-sm-6 col-md-4 col-lg-4 d-none d-sm-block offset-1">
+                <img src="./img/carousel/Carousel-3.png">
+              </div>
+            </div>
+          </div>
+          <!-- Carousel Item 3 -->
+          <!-- Carousel Item 4 -->
+          <div class="carousel-item">
+            <div class="row pt-5 justify-content-center">
+              <div class="col-9 col-sm-4 col-md-6 col-lg-5 my-4">
+                <h1 class="mb-4">Chill Casual Living</h1>
+                <p class="mb-4">The world has gone shit and we all know that. Stay chill by wearing our cozy casual collections</p>
+                <a href="index.html" class="btn btn-warning">Explore Now</a>
+              </div>
+              <div class="col-3 col-sm-6 col-md-4 col-lg-4 d-none d-sm-block offset-1">
+                <img src="./img/carousel/Carousel-4.png">
+              </div>
+            </div>
+          </div>
+          <!-- Carousel Item 4 -->
+        </div>
+      </div>
+      <button class="carousel-control-prev opacity-0" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next opacity-0" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- Akhir Carousel -->
+
+    <!-- Brands -->
+    <section class="brands" id="brands">
+     <div class="container">
+      <div class="row m-3">
+        <h3 class=" col text-center p-3">Featuring World Famous Brands</h3>
+      </div>
+      <div class="row p-2 text-center">
+        <div class="col mb-4">
+          <img src="./img/brands/cc.png" class="img-fluid">
+          <img src="./img/brands/nike.png" class="img-fluid">
+          <img src="./img/brands/pnb.png" class="img-fluid">
+          <img src="./img/brands/uniqlo.png" class="img-fluid">
+        </div>
+      </div>
+    </section>
+  </div>
+    <!-- Akhir Brands -->
+
+    <!-- Features -->
+    <section class="features bg-light" id="features">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col text-center mt-5 mb-3">
+            <h3>Odangarments Top Picks</h3>
+            <p>Explore our best seller pieces</p>
+          </div>
+        </div>
+
+        <div class="row text-center">
+          <div class="col-6 col-lg-3">
+          <figure class="figure">
+            <div class="figure-img">
+              <img src="./img/features/Features-1.png" class="figure-img img-fluid rounded" >
+              <a href="#" class="d-flex justify-content-center">
+                <i class="bi-bag-plus-fill text-warning align-self-center" style="font-size: 2rem;"></i>
+              </a>
+            </div>
+            <figcaption class="figure-caption text-start mt-0">
+              <h5>Nike Sportswear</h5>
+              <p class="">IDR 399.900</p>
+              <span href="#" class="text-warning">
+                 1.7M Sold
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <figure class="figure">
+            <div class="figure-img">
+              <img src="./img/features/Features-2.png" class="figure-img img-fluid rounded" >
+              <a href="#" class="d-flex justify-content-center">
+                <i class="bi-bag-plus-fill text-warning align-self-center" style="font-size: 2rem;"></i>
+              </a>
+            </div>
+            <figcaption class="figure-caption text-start mt-0">
+              <h5>Chanel Wear</h5>
+              <p class="">IDR 8.000.000</p>
+              <span href="#" class="text-warning">
+                 1M Sold
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <figure class="figure">
+            <div class="figure-img">
+              <img src="./img/features/Features-3.png" class="figure-img img-fluid rounded" >
+              <a href="#" class="d-flex justify-content-center">
+                <i class="bi-bag-plus-fill text-warning align-self-center" style="font-size: 2rem;"></i>
+              </a>
+            </div>
+            <figcaption class="figure-caption text-start mt-0">
+              <h5>Uniqlo x JJK</h5>
+              <p class="">IDR 350.998</p>
+              <span href="#" class="text-warning">
+                 1B Sold
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <figure class="figure">
+            <div class="figure-img">
+              <img src="./img/features/Features-4.png" class="figure-img img-fluid rounded" >
+              <a href="#" class="d-flex justify-content-center">
+                <i class="bi-bag-plus-fill text-warning align-self-center" style="font-size: 2rem;"></i>
+              </a>
+            </div>
+            <figcaption class="figure-caption text-start mt-0">
+              <h5>PnB Sweatkit</h5>
+              <p class="">IDR 599.999</p>
+              <span href="#" class="text-warning">
+                 90K Sold
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+
+        <div class="collapse" id="collapseExample">
+          <div class="row text-center">
+        
+          <div class="col-6 col-lg-3">
+          <figure class="figure">
+            <div class="figure-img">
+              <img src="./img/features/Features-1.png" class="figure-img img-fluid rounded" >
+              <a href="#" class="d-flex justify-content-center">
+                <i class="bi-bag-plus-fill text-warning align-self-center" style="font-size: 2rem;"></i>
+              </a>
+            </div>
+            <figcaption class="figure-caption text-start mt-0">
+              <h5>Nike Sportswear</h5>
+              <p class="">IDR 399.900</p>
+              <span href="#" class="text-warning">
+                 1.7M Sold
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <figure class="figure">
+            <div class="figure-img">
+              <img src="./img/features/Features-2.png" class="figure-img img-fluid rounded" >
+              <a href="#" class="d-flex justify-content-center">
+                <i class="bi-bag-plus-fill text-warning align-self-center" style="font-size: 2rem;"></i>
+              </a>
+            </div>
+            <figcaption class="figure-caption text-start mt-0">
+              <h5>Chanel Wear</h5>
+              <p class="">IDR 8.000.000</p>
+              <span href="#" class="text-warning">
+                 1M Sold
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <figure class="figure">
+            <div class="figure-img">
+              <img src="./img/features/Features-3.png" class="figure-img img-fluid rounded" >
+              <a href="#" class="d-flex justify-content-center">
+                <i class="bi-bag-plus-fill text-warning align-self-center" style="font-size: 2rem;"></i>
+              </a>
+            </div>
+            <figcaption class="figure-caption text-start mt-0">
+              <h5>Uniqlo x JJK</h5>
+              <p class="">IDR 350.998</p>
+              <span href="#" class="text-warning">
+                 1B Sold
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+
+        <div class="col-6 col-lg-3">
+          <figure class="figure">
+            <div class="figure-img">
+              <img src="./img/features/Features-4.png" class="figure-img img-fluid rounded" >
+              <a href="#" class="d-flex justify-content-center">
+                <i class="bi-bag-plus-fill text-warning align-self-center" style="font-size: 2rem;"></i>
+              </a>
+            </div>
+            <figcaption class="figure-caption text-start mt-0">
+              <h5>PnB Sweatkit</h5>
+              <p class="">IDR 599.999</p>
+              <span href="#" class="text-warning">
+                 90K Sold
+              </span>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+        </div>
+        
+        <div class="row mt-3 mb-5">
+          <div class="col-12 pb-3 text-center">
+            <button type="button" class="btn btn-outline-warning kolaps" id="baton" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><i class="bi-arrow-down-short" id="arow"> Show More</i></button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Akhir Features -->
+
+    <!-- Category -->
+    <section class="category" id="category">
+      <div class="container">
+        <div class="row">
+          <div class="row mb-3">
+            <div class="col text-center mb-3">
+              <h3>Browse by Categories</h3>
+              <p>Take a look inside our dozens collections</p>
+            </div>
+          </div>
+          </div>
+
+          <div class="row mb-5">
+            <div class="col-12 col-md-6 col-lg-3 mt-2">
+              <div class="card" style="width: 15 rem;">
+                <img src="./img/categories/Cat-1.png" class="card-img-top" alt="...">
+                <div class="card-body text-center">
+                  <h5 class="card-title mb-3">Uppers</h5>    
+                  <a href="#" class="btn btn-warning batoncat">Explore More <i class="arowcat"></i></a>
+                </div>
+              </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3 mt-2">
+            <div class="card" style="width: 15 rem;">
+              <img src="./img/categories/Cat-2.png" class="card-img-top" alt="...">
+              <div class="card-body text-center">
+                <h5 class="card-title mb-3">Lowers</h5>  
+                <a href="#" class="btn btn-warning batoncat">Explore More <i class="arowcat"></i></a>
+              </div>
+            </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 mt-2">
+          <div class="card" style="width: 15 rem;">
+            <img src="./img/categories/Cat-3.png" class="card-img-top" alt="...">
+            <div class="card-body text-center">
+              <h5 class="card-title mb-3">Shoes</h5>
+              <a href="#" class="btn btn-warning batoncat">Explore More <i class="arowcat"></i></a>
+            </div>
+          </div>
+      </div>
+      <div class="col-12 col-md-6 col-lg-3 mt-2">
+        <div class="card" style="width: 15 rem;">
+          <img src="./img/categories/Cat-4.png" class="card-img-top" alt="...">
+          <div class="card-body text-center">
+            <h5 class="card-title mb-3">Accessories</h5>
+            <a href="#" class="btn btn-warning batoncat">Explore More <i class="arowcat"></i></a>
+          </div>
+        </div>
+    </div>
+        </div> 
+      </div>
+    </section>
+    <!-- Akhir Category -->
+
+    <!-- Why Odangarments -->
+    <section class="why bg-light" id="why">
+      <div class="container mb-0">
+        <div class="row mb-4">
+          <div class="col">
+            <div class="col text-center mt-5 mb-3">
+              <h3>Start Spending Now!</h3>
+              <p>Grab it fast while it last</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5">
+          <div class="col-9">
+            <input class="form-control form-control-lg" type="text" placeholder="Search your dream items here" aria-label=".form-control-lg example">
+          </div>
+          <div class="col-3 text-center">
+            <button type="button" class="btn btn-warning btn-lg" data-bs-toggle="tooltip" data-bs-placement="top" title="Psst! We have special offers for you!">Search</button>
+          </div>
+          </div>
+
+        <div class="row justify-content-center text-center mb-5">
+          <div class="col-12 col-md-4 pb-3">
+            <h5>
+              Worldwide Shipping <i class="bi-mailbox" style="font-size: 1.5rem"></i>
+            </h5>
+          </div>
+          <div class="col-12 col-md-4 pb-3">
+            <h5>Additional Merchs <i class="bi-bag-plus" style="font-size: 1.5rem"></i>
+            </h5>
+          </div>
+          <div class="col-12 col-md-4 pb-3">
+            <h5>Discounts <i class="bi-percent" style="font-size: 1.5rem"></i>
+            </h5>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+    <!-- Why Odangarments -->
+
+    <!-- Footer -->
+    <footer class="border-top p-5 mt-0" id="footer">
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-1">
+            <a href="">
+              <img src="./img/logo_small.png">
+            </a>
+          </div>
+          <div class="col-4 text-end">
+            <a href="">
+              <img src="./img/social/fb.png">
+            </a>
+            <a href="">
+              <img src="./img/social/twitter.png">
+            </a>
+            <a href="">
+              <img src="./img/social/ig.png">
+            </a>
+          </div>
+        </div>
+        <div class="row mt-3 justify-content-between">
+          <div class="col-5">
+            <p class="text-warning">All Rights Reserved by Odangarments 2021.</p>
+          </div>
+          <div class="col-6">
+            <nav class="nav justify-content-end text-uppercase">
+              <a class="nav-link active text-warning" href="#">Jobs</a>
+              <a class="nav-link text-warning" href="#">Developer</a>
+              <a class="nav-link text-warning" href="#">Terms</a>
+              <a class="nav-link pr-0 text-warning" href="#">Privacy Policy</a>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Akhir Footer -->
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+
+    <!-- My JavaScript -->
+    <script src="script/skrip.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-eMNCOe7tC1doHpGoWe/6oMVemdAVTMs2xqW4mwXrXsW0L84Iytr2wi5v2QjrP/xp" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.min.js" integrity="sha384-cn7l7gDp0eyniUwwAZgrzD06kc/tftFf19TOAs2zVinnD/C7E91j9yyk5//jjpt/" crossorigin="anonymous"></script>
+    -->
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use  -->
+     https://firebase.google.com/docs/web/setup#available-libraries
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+  </body>
+</html>
